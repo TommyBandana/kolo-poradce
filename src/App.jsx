@@ -1,5 +1,6 @@
 import { useState, useRef, useCallback } from "react";
 import { Link } from "react-router-dom";
+import { SEO } from "./blog/SEO";
 
 // ─── DATA: QUIZ 1 - VÝBĚR TYPU KOLA ───
 
@@ -1265,6 +1266,11 @@ export default function App() {
   if (page === "landing") {
     return (
       <div style={{ background: "linear-gradient(165deg, #f5f3ed 0%, #ece8df 50%, #e8e4da 100%)", fontFamily: "'DM Sans',sans-serif" }}>
+        <SEO
+          title="Koloporadce.cz — Jak vybrat kolo? Průvodce výběrem horského, gravelového a silničního kola 2026"
+          description="Bezplatný online poradce pro výběr jízdního kola. Kvíz na míru doporučí typ kola, velikost rámu i rozpočet. Horská, gravelová, silniční i městská kola."
+          canonical="https://koloporadce.cz/"
+        />
         <style>{KF}</style>
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
         <HeroSection onStart={goToQuiz} />
