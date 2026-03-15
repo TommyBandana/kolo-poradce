@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 
-export function SEO({ title, description, canonical }) {
+export function SEO({ title, description, canonical, ogType = 'website', ogImage = 'https://koloporadce.cz/og-image.png' }) {
   useEffect(() => {
     // Title
     document.title = title || 'Průvodce výběrem kola'
@@ -30,12 +30,15 @@ export function SEO({ title, description, canonical }) {
     // Open Graph
     setMeta('og:title', title)
     setMeta('og:description', description)
-    setMeta('og:type', 'article')
+    setMeta('og:type', ogType)
+    setMeta('og:image', ogImage)
+    setMeta('og:image:width', '1200')
+    setMeta('og:image:height', '630')
 
     return () => {
       document.title = 'Průvodce výběrem kola'
     }
-  }, [title, description, canonical])
+  }, [title, description, canonical, ogType, ogImage])
 
   return null
 }

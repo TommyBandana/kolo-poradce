@@ -22,9 +22,17 @@ export default function BlogList() {
   return (
     <>
       <SEO
-        title="Blog – Průvodce výběrem kola"
+        title="Blog – Průvodce výběrem kola | Koloporadce.cz"
         description="Články a návody pro výběr správného kola. Horská, silniční, gravel, elektrokola – vše co potřebujete vědět."
       />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Koloporadce", "item": "https://koloporadce.cz/" },
+          { "@type": "ListItem", "position": 2, "name": "Blog" }
+        ]
+      }) }} />
       <div style={S.page}>
         <style>{KF}</style>
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />

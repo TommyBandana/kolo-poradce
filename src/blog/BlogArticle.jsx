@@ -47,7 +47,17 @@ export default function BlogArticle() {
         title={article.title}
         description={article.metaDescription}
         canonical={article.canonical}
+        ogType="article"
       />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Koloporadce", "item": "https://koloporadce.cz/" },
+          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://koloporadce.cz/blog" },
+          { "@type": "ListItem", "position": 3, "name": article.title }
+        ]
+      }) }} />
       <div style={S.page}>
         <style>{KF}</style>
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
