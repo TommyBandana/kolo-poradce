@@ -1065,8 +1065,19 @@ function FAQ() {
     { q: "Mohu si výsledek uložit?", a: "Ano, na výsledkové stránce najdeš tlačítko pro uložení výsledku jako obrázek do telefonu nebo počítače." },
     { q: "Jaké typy kol kvíz pokrývá?", a: "Silniční, gravel, MTB cross-country, MTB trail/all-mountain, MTB enduro/freeride, MTB downhill, městské, krosové/trekové, cyklokrosové a fitness kolo — celkem 10 kategorií." },
   ];
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": items.map(it => ({
+      "@type": "Question",
+      "name": it.q,
+      "acceptedAnswer": { "@type": "Answer", "text": it.a }
+    }))
+  };
+
   return (
     <section id="faq" style={{ padding: "80px 20px", background: "#faf8f4" }}>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <div style={{ maxWidth: "600px", margin: "0 auto" }}>
         <h2 style={{ fontFamily: "'Playfair Display',serif", fontSize: "clamp(24px, 4vw, 36px)", fontWeight: 900, color: "#1a1a2e", textAlign: "center", margin: "0 0 12px" }}>Časté otázky</h2>
         <p style={{ fontFamily: "'DM Sans',sans-serif", fontSize: "15px", color: "#8a8580", textAlign: "center", margin: "0 0 40px" }}>Vše co tě může zajímat</p>
@@ -1079,9 +1090,7 @@ function FAQ() {
                 <span style={{ fontSize: "15px", fontWeight: 600, fontFamily: "'DM Sans',sans-serif", color: "#1a1a2e" }}>{it.q}</span>
                 <span style={{ fontSize: "16px", color: "#aaa", transition: "transform 0.3s", transform: open === i ? "rotate(180deg)" : "none", flexShrink: 0, marginLeft: "12px" }}>▾</span>
               </div>
-              {open === i && (
-                <p style={{ margin: "12px 0 0", fontSize: "14px", lineHeight: 1.6, color: "#6b6560", fontFamily: "'DM Sans',sans-serif" }}>{it.a}</p>
-              )}
+              <p style={{ margin: "12px 0 0", fontSize: "14px", lineHeight: 1.6, color: "#6b6560", fontFamily: "'DM Sans',sans-serif", maxHeight: open === i ? "200px" : "0", overflow: "hidden", opacity: open === i ? 1 : 0, transition: "all 0.3s ease" }}>{it.a}</p>
             </div>
           ))}
         </div>
