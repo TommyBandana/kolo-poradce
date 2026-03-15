@@ -1,4 +1,5 @@
 import { useState, useRef, useCallback } from "react";
+import { Link } from "react-router-dom";
 
 // ——— DATA: QUIZ 1 - VÝBĚR TYPU KOLA ———
 
@@ -536,6 +537,12 @@ function HeroSection({ onStart }) {
         ))}
       </div>
 
+      <div style={{ marginTop: "24px", opacity: 0, animation: "fadeSlideIn 0.7s ease forwards", animationDelay: "0.85s" }}>
+        <Link to="/blog" style={{ fontFamily: "'DM Sans',sans-serif", fontSize: "14px", color: "#6b6560", textDecoration: "none", fontWeight: 600, borderBottom: "1px solid #c8c4bb", paddingBottom: "2px" }}>
+          Články o výběru kola →
+        </Link>
+      </div>
+
       <div style={{ position: "absolute", bottom: "24px", left: "50%", transform: "translateX(-50%)", fontSize: "12px", color: "#ccc8c0", fontFamily: "'DM Sans',sans-serif", opacity: 0, animation: "fadeSlideIn 0.7s ease forwards", animationDelay: "1s" }}>
         ↓ Více informací níže
       </div>
@@ -654,7 +661,10 @@ function Footer({ onStart }) {
         <h3 style={{ fontFamily: "'Playfair Display',serif", fontSize: "22px", fontWeight: 700, margin: "0 0 8px" }}>Průvodce výběrem kola</h3>
         <p style={{ fontFamily: "'DM Sans',sans-serif", fontSize: "13px", color: "rgba(250,248,244,0.5)", margin: "0 0 24px" }}>Nezávislý poradce pro výběr jízdního kola</p>
 
-        <button onClick={onStart} style={{ padding: "12px 32px", border: "1px solid rgba(250,248,244,0.3)", borderRadius: "10px", background: "transparent", color: "#faf8f4", fontSize: "14px", fontWeight: 600, fontFamily: "'DM Sans',sans-serif", cursor: "pointer", transition: "all 0.2s", marginBottom: "32px" }}>Spustit kvíz</button>
+        <div style={{ display: "flex", gap: "12px", justifyContent: "center", marginBottom: "32px" }}>
+          <button onClick={onStart} style={{ padding: "12px 32px", border: "1px solid rgba(250,248,244,0.3)", borderRadius: "10px", background: "transparent", color: "#faf8f4", fontSize: "14px", fontWeight: 600, fontFamily: "'DM Sans',sans-serif", cursor: "pointer", transition: "all 0.2s" }}>Spustit kvíz</button>
+          <Link to="/blog" style={{ padding: "12px 32px", border: "1px solid rgba(250,248,244,0.3)", borderRadius: "10px", background: "transparent", color: "#faf8f4", fontSize: "14px", fontWeight: 600, fontFamily: "'DM Sans',sans-serif", textDecoration: "none", transition: "all 0.2s" }}>Blog</Link>
+        </div>
 
         <div style={{ borderTop: "1px solid rgba(250,248,244,0.1)", paddingTop: "20px", fontSize: "11px", color: "rgba(250,248,244,0.3)", fontFamily: "'DM Sans',sans-serif", lineHeight: 1.6 }}>
           © 2026 Průvodce výběrem kola. Všechna doporučení jsou orientační.<br />
