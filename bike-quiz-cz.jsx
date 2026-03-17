@@ -1,6 +1,4 @@
 import { useState, useRef, useCallback } from "react";
-import { Link } from "react-router-dom";
-import { SEO } from "./blog/SEO";
 
 // ─── DATA: QUIZ 1 - VÝBĚR TYPU KOLA ───
 
@@ -974,11 +972,6 @@ function HeroSection({ onStart }) {
         ))}
       </div>
 
-      {/* Blog link */}
-      <Link to="/blog" style={{ display: "inline-block", marginTop: "24px", fontSize: "14px", color: "#8a8580", fontFamily: "'DM Sans',sans-serif", textDecoration: "none", borderBottom: "1px solid #ddd8d0", paddingBottom: "2px", opacity: 0, animation: "fadeSlideIn 0.7s ease forwards", animationDelay: "0.9s" }}>
-        📖 Přečti si naše články o výběru kola
-      </Link>
-
       {/* Scroll hint */}
       <div style={{ position: "absolute", bottom: "24px", left: "50%", transform: "translateX(-50%)", fontSize: "12px", color: "#ccc8c0", fontFamily: "'DM Sans',sans-serif", opacity: 0, animation: "fadeSlideIn 0.7s ease forwards", animationDelay: "1s" }}>
         ↓ Více informací níže
@@ -1065,19 +1058,8 @@ function FAQ() {
     { q: "Mohu si výsledek uložit?", a: "Ano, na výsledkové stránce najdeš tlačítko pro uložení výsledku jako obrázek do telefonu nebo počítače." },
     { q: "Jaké typy kol kvíz pokrývá?", a: "Silniční, gravel, MTB cross-country, MTB trail/all-mountain, MTB enduro/freeride, MTB downhill, městské, krosové/trekové, cyklokrosové a fitness kolo — celkem 10 kategorií." },
   ];
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": items.map(it => ({
-      "@type": "Question",
-      "name": it.q,
-      "acceptedAnswer": { "@type": "Answer", "text": it.a }
-    }))
-  };
-
   return (
     <section id="faq" style={{ padding: "80px 20px", background: "#faf8f4" }}>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <div style={{ maxWidth: "600px", margin: "0 auto" }}>
         <h2 style={{ fontFamily: "'Playfair Display',serif", fontSize: "clamp(24px, 4vw, 36px)", fontWeight: 900, color: "#1a1a2e", textAlign: "center", margin: "0 0 12px" }}>Časté otázky</h2>
         <p style={{ fontFamily: "'DM Sans',sans-serif", fontSize: "15px", color: "#8a8580", textAlign: "center", margin: "0 0 40px" }}>Vše co tě může zajímat</p>
@@ -1090,7 +1072,9 @@ function FAQ() {
                 <span style={{ fontSize: "15px", fontWeight: 600, fontFamily: "'DM Sans',sans-serif", color: "#1a1a2e" }}>{it.q}</span>
                 <span style={{ fontSize: "16px", color: "#aaa", transition: "transform 0.3s", transform: open === i ? "rotate(180deg)" : "none", flexShrink: 0, marginLeft: "12px" }}>▾</span>
               </div>
-              <p style={{ margin: "12px 0 0", fontSize: "14px", lineHeight: 1.6, color: "#6b6560", fontFamily: "'DM Sans',sans-serif", maxHeight: open === i ? "200px" : "0", overflow: "hidden", opacity: open === i ? 1 : 0, transition: "all 0.3s ease" }}>{it.a}</p>
+              {open === i && (
+                <p style={{ margin: "12px 0 0", fontSize: "14px", lineHeight: 1.6, color: "#6b6560", fontFamily: "'DM Sans',sans-serif" }}>{it.a}</p>
+              )}
             </div>
           ))}
         </div>
@@ -1107,10 +1091,7 @@ function Footer({ onStart }) {
         <h3 style={{ fontFamily: "'Playfair Display',serif", fontSize: "22px", fontWeight: 700, margin: "0 0 8px" }}>Průvodce výběrem kola</h3>
         <p style={{ fontFamily: "'DM Sans',sans-serif", fontSize: "13px", color: "rgba(250,248,244,0.5)", margin: "0 0 24px" }}>Nezávislý poradce pro výběr jízdního kola</p>
 
-        <div style={{ display: "flex", gap: "16px", justifyContent: "center", marginBottom: "32px", flexWrap: "wrap" }}>
-          <button onClick={onStart} style={{ padding: "12px 32px", border: "1px solid rgba(250,248,244,0.3)", borderRadius: "10px", background: "transparent", color: "#faf8f4", fontSize: "14px", fontWeight: 600, fontFamily: "'DM Sans',sans-serif", cursor: "pointer", transition: "all 0.2s" }}>Spustit kvíz</button>
-          <Link to="/blog" style={{ padding: "12px 32px", border: "1px solid rgba(250,248,244,0.15)", borderRadius: "10px", background: "transparent", color: "rgba(250,248,244,0.6)", fontSize: "14px", fontWeight: 600, fontFamily: "'DM Sans',sans-serif", textDecoration: "none", transition: "all 0.2s" }}>Blog</Link>
-        </div>
+        <button onClick={onStart} style={{ padding: "12px 32px", border: "1px solid rgba(250,248,244,0.3)", borderRadius: "10px", background: "transparent", color: "#faf8f4", fontSize: "14px", fontWeight: 600, fontFamily: "'DM Sans',sans-serif", cursor: "pointer", transition: "all 0.2s", marginBottom: "32px" }}>Spustit kvíz</button>
 
         <div style={{ borderTop: "1px solid rgba(250,248,244,0.1)", paddingTop: "20px", fontSize: "11px", color: "rgba(250,248,244,0.3)", fontFamily: "'DM Sans',sans-serif", lineHeight: 1.6 }}>
           © 2026 Průvodce výběrem kola. Všechna doporučení jsou orientační.<br />
@@ -1275,11 +1256,6 @@ export default function App() {
   if (page === "landing") {
     return (
       <div style={{ background: "linear-gradient(165deg, #f5f3ed 0%, #ece8df 50%, #e8e4da 100%)", fontFamily: "'DM Sans',sans-serif" }}>
-        <SEO
-          title="Koloporadce.cz — Jak vybrat kolo? Průvodce výběrem horského, gravelového a silničního kola 2026"
-          description="Bezplatný online poradce pro výběr jízdního kola. Kvíz na míru doporučí typ kola, velikost rámu i rozpočet. Horská, gravelová, silniční i městská kola."
-          canonical="https://www.koloporadce.cz/"
-        />
         <style>{KF}</style>
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
         <HeroSection onStart={goToQuiz} />

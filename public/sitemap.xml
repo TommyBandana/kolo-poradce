@@ -1,77 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://koloporadce.cz/</loc>
+    <loc>https://www.koloporadce.cz/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://koloporadce.cz/blog</loc>
+    <loc>https://www.koloporadce.cz/blog</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://koloporadce.cz/blog/jak-vybrat-kolo</loc>
+    <loc>https://www.koloporadce.cz/blog/jak-vybrat-kolo</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://koloporadce.cz/blog/jak-vybrat-velikost-kola</loc>
+    <loc>https://www.koloporadce.cz/blog/jak-vybrat-velikost-kola</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://koloporadce.cz/blog/jak-vybrat-horske-kolo</loc>
+    <loc>https://www.koloporadce.cz/blog/jak-vybrat-horske-kolo</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://koloporadce.cz/blog/jak-vybrat-elektrokolo</loc>
+    <loc>https://www.koloporadce.cz/blog/jak-vybrat-elektrokolo</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://koloporadce.cz/blog/silnicni-nebo-gravel-kolo</loc>
+    <loc>https://www.koloporadce.cz/blog/silnicni-nebo-gravel-kolo</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://koloporadce.cz/blog/kotoucove-nebo-rafkove-brzdy</loc>
+    <loc>https://www.koloporadce.cz/blog/kotoucove-nebo-rafkove-brzdy</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://koloporadce.cz/blog/jake-kolo-pro-zenu</loc>
+    <loc>https://www.koloporadce.cz/blog/jake-kolo-pro-zenu</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://koloporadce.cz/blog/co-je-to-gravel-bike</loc>
+    <loc>https://www.koloporadce.cz/blog/co-je-to-gravel-bike</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://koloporadce.cz/blog/gravel-nebo-krosove-kolo</loc>
+    <loc>https://www.koloporadce.cz/blog/gravel-nebo-krosove-kolo</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://koloporadce.cz/blog/horske-kolo-nebo-gravel</loc>
+    <loc>https://www.koloporadce.cz/blog/horske-kolo-nebo-gravel</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://koloporadce.cz/blog/priprava-kola-na-sezonu</loc>
+    <loc>https://www.koloporadce.cz/blog/priprava-kola-na-sezonu</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://koloporadce.cz/blog/kolik-stoji-dobre-kolo</loc>
+    <loc>https://www.koloporadce.cz/blog/kolik-stoji-dobre-kolo</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://koloporadce.cz/blog/kde-jezdit-na-kole-okoli-prahy-brna</loc>
+    <loc>https://www.koloporadce.cz/blog/kde-jezdit-na-kole-okoli-prahy-brna</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

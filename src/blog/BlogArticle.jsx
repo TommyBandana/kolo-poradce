@@ -53,8 +53,8 @@ export default function BlogArticle() {
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
         "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Koloporadce", "item": "https://koloporadce.cz/" },
-          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://koloporadce.cz/blog" },
+          { "@type": "ListItem", "position": 1, "name": "Koloporadce", "item": "https://www.koloporadce.cz/" },
+          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.koloporadce.cz/blog" },
           { "@type": "ListItem", "position": 3, "name": article.title }
         ]
       }) }} />

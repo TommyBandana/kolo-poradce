@@ -1,7 +1,7 @@
 ---
 title: "Jak vybrat elektrokolo: Co sledovat před koupí e-kola v 2025"
 slug: "jak-vybrat-elektrokolo"
-canonical: "https://koloporadce.cz/jak-vybrat-elektrokolo"
+canonical: "https://www.koloporadce.cz/jak-vybrat-elektrokolo"
 metaDescription: "Jak vybrat elektrokolo? Motor, baterie, dojezd, váha – vše co musíte vědět. Porovnání typů e-kol pro město, trekking i terén. S přehlednou tabulkou."
 ---
 

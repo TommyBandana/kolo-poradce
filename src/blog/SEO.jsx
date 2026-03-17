@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 
-export function SEO({ title, description, canonical, ogType = 'website', ogImage = 'https://koloporadce.cz/og-image.png' }) {
+export function SEO({ title, description, canonical, ogType = 'website', ogImage = 'https://www.koloporadce.cz/og-image.png' }) {
   useEffect(() => {
     // Title
     document.title = title || 'Průvodce výběrem kola'

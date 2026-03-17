@@ -2,7 +2,7 @@
 title: "Gravel nebo krosové kolo: Jaký je rozdíl a co vybrat?"
 slug: "/gravel-nebo-krosove-kolo"
 metaDescription: "Gravel nebo krosové kolo – co je lepší volba? Srovnáme geometrii, terén, rychlost, komfort i cenu. Zjistěte, které kolo odpovídá vašemu stylu jízdy."
-canonical: "https://koloporadce.cz/gravel-nebo-krosove-kolo"
+canonical: "https://www.koloporadce.cz/gravel-nebo-krosove-kolo"
 ---
 
 # Gravel nebo krosové kolo: Jaký je rozdíl a co vybrat?

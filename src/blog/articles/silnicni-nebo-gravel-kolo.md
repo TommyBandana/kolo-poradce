@@ -1,7 +1,7 @@
 ---
 title: "Silniční nebo gravel kolo: Jak si vybrat v 2025"
 slug: "silnicni-nebo-gravel-kolo"
-canonical: "https://koloporadce.cz/silnicni-nebo-gravel-kolo"
+canonical: "https://www.koloporadce.cz/silnicni-nebo-gravel-kolo"
 metaDescription: "Silniční nebo gravel kolo – co vybrat? Srovnáme geometrii, rychlost, komfort, využití i cenu. Zjistěte, které kolo odpovídá vašemu stylu jízdy."
 ---
 

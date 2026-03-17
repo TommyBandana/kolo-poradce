@@ -29,7 +29,7 @@ export default function BlogList() {
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
         "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Koloporadce", "item": "https://koloporadce.cz/" },
+          { "@type": "ListItem", "position": 1, "name": "Koloporadce", "item": "https://www.koloporadce.cz/" },
           { "@type": "ListItem", "position": 2, "name": "Blog" }
         ]
       }) }} />

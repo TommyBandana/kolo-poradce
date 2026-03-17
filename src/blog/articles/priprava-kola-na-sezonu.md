@@ -2,7 +2,7 @@
 title: "Příprava kola na sezónu: Kompletní servisní checklist 2025"
 slug: "/priprava-kola-na-sezonu"
 metaDescription: "Jak připravit kolo na sezónu? Kompletní checklist: kontrola brzd, převodů, tlaku v pneumatikách, mazání a seřízení. Udělejte to správně před první jízdou."
-canonical: "https://koloporadce.cz/priprava-kola-na-sezonu"
+canonical: "https://www.koloporadce.cz/priprava-kola-na-sezonu"
 ---
 
 # Příprava kola na sezónu: Kompletní servisní checklist 2025

@@ -2,7 +2,7 @@
 title: "Horské kolo nebo gravel: Co vybrat pro smíšený terén?"
 slug: "/horske-kolo-nebo-gravel"
 metaDescription: "Horské kolo nebo gravel? Srovnáme oba typy podle terénu, rychlosti, komfortu a využití. Zjistěte, které kolo je pro váš styl jízdy to pravé."
-canonical: "https://koloporadce.cz/horske-kolo-nebo-gravel"
+canonical: "https://www.koloporadce.cz/horske-kolo-nebo-gravel"
 ---
 
 # Horské kolo nebo gravel: Co vybrat pro smíšený terén?
