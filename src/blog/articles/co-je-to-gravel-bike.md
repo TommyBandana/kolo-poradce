@@ -1,7 +1,7 @@
 ---
 title: "Co je to gravel bike: Průvodce pro každého, kdo o něm slyšel poprvé"
 slug: "co-je-to-gravel-bike"
-canonical: "https://www.koloporadce.cz/co-je-to-gravel-bike"
+canonical: "https://www.koloporadce.cz/blog/co-je-to-gravel-bike"
 metaDescription: "Co je to gravel bike a pro koho se hodí? Vysvětlíme rozdíly oproti MTB a silničnímu kolu, typické využití, parametry a na co si dát pozor při výběru."
 ---
 

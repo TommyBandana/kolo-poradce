@@ -1,7 +1,7 @@
 ---
 title: "Jak vybrat kolo: Kompletní průvodce pro rok 2026"
 slug: "jak-vybrat-kolo"
-canonical: "https://www.koloporadce.cz/jak-vybrat-kolo"
+canonical: "https://www.koloporadce.cz/blog/jak-vybrat-kolo"
 metaDescription: "Nevíte, jak vybrat kolo? Porovnáme horská, silniční, gravel a elektrokola. Zjistěte, které kolo je pro vás to pravé – nebo si pomozte naším kvízem."
 ---
 

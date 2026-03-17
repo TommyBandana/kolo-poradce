@@ -1,7 +1,7 @@
 ---
 title: "Kotoučové nebo ráfkové brzdy: Které vybrat v 2025?"
 slug: "kotoucove-nebo-rafkove-brzdy"
-canonical: "https://www.koloporadce.cz/kotoucove-nebo-rafkove-brzdy"
+canonical: "https://www.koloporadce.cz/blog/kotoucove-nebo-rafkove-brzdy"
 metaDescription: "Kotoučové nebo ráfkové brzdy – jaký je rozdíl a co vybrat? Srovnáme výkon, hmotnost, údržbu, cenu i vhodnost pro různé typy jízdy. Přehledně a bez žargonu."
 ---
 

@@ -2,7 +2,7 @@
 title: "Kolik stojí dobré kolo? Realistický průvodce cenami 2025"
 slug: "/kolik-stoji-dobre-kolo"
 metaDescription: "Kolik stojí dobré kolo? Realistické cenové rozpětí pro horská, gravel, silniční i elektrokola. Co dostanete za 10, 20, 30 nebo 50 tisíc korun."
-canonical: "https://www.koloporadce.cz/kolik-stoji-dobre-kolo"
+canonical: "https://www.koloporadce.cz/blog/kolik-stoji-dobre-kolo"
 ---
 
 # Kolik stojí dobré kolo? Realistický průvodce cenami 2025

@@ -1,7 +1,7 @@
 ---
 title: "Jaké kolo pro ženu: Jak vybrat dámské kolo bez mýtů"
 slug: "jake-kolo-pro-zenu"
-canonical: "https://www.koloporadce.cz/jake-kolo-pro-zenu"
+canonical: "https://www.koloporadce.cz/blog/jake-kolo-pro-zenu"
 metaDescription: "Jaké kolo pro ženu skutečně vybrat? Vysvětlíme rozdíly dámských kol, co jsou jen mýty a na co se zaměřit – geometrie, sedlo, rám i typ kola."
 ---
 

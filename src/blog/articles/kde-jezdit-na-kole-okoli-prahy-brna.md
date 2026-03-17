@@ -2,7 +2,7 @@
 title: "Kde jezdit na kole v okolí Prahy a Brna: Nejlepší trasy 2025"
 slug: "/kde-jezdit-na-kole-okoli-prahy-brna"
 metaDescription: "Kde jezdit na kole v okolí Prahy a Brna? Tipy na nejlepší trasy pro silniční, gravel i horská kola. Výlety na půl dne i celý den přímo z města."
-canonical: "https://www.koloporadce.cz/kde-jezdit-na-kole-okoli-prahy-brna"
+canonical: "https://www.koloporadce.cz/blog/kde-jezdit-na-kole-okoli-prahy-brna"
 ---
 
 # Kde jezdit na kole v okolí Prahy a Brna: Nejlepší trasy 2025

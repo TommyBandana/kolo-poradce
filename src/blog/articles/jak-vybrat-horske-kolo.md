@@ -1,7 +1,7 @@
 ---
 title: "Jak vybrat horské kolo (MTB): Průvodce pro začátečníky i pokročilé"
 slug: "jak-vybrat-horske-kolo"
-canonical: "https://www.koloporadce.cz/jak-vybrat-horske-kolo"
+canonical: "https://www.koloporadce.cz/blog/jak-vybrat-horske-kolo"
 metaDescription: "Jak vybrat horské kolo? Hardtail nebo full suspension, průměr kol, odpružení, brzdy – vše co potřebujete vědět před koupí MTB kola v roce 2025."
 ---
 

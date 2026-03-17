@@ -1,7 +1,7 @@
 ---
 title: "Jak vybrat velikost kola: Tabulka velikostí + návod 2025"
 slug: "jak-vybrat-velikost-kola"
-canonical: "https://www.koloporadce.cz/jak-vybrat-velikost-kola"
+canonical: "https://www.koloporadce.cz/blog/jak-vybrat-velikost-kola"
 metaDescription: "Jak poznat správnou velikost kola? Přehledná tabulka velikostí rámu podle výšky, délky nohy a typu kola. Vyhnete se bolestem a špatnému nákupu."
 ---
 
